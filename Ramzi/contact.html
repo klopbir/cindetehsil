@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Ahmadov | Contact</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="toggle" onclick="toogleMenu();"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="photo5278485081771587648.jpg" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">Contact Information</h5>
+        <div>
+            <h4>You can contact with me on: </h4>
+        </div>
+        <ul class="sci">
+            <li><a target="_blank" href="https://www.facebook.com/remzi.ehmedov.54"><img src="facebook.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/rahmadov85/"><img src="instagram.png" alt=""></a></li>
+            <li><a target="_blank" href="mailto:rahmadov12304@ada.edu.az"><img src="Iconsmind-Outline-Envelope.ico" alt=""></a></li>
+        </ul>
+       </div>
+    </section>
+<div class="sidebar">
+    <ul class="menu">
+        <li><a href="index.html" onclick="toogleMenu();">Home</a></li>
+        <li><a href="contact.html" onclick="toogleMenu();">Contact</a></li>
+        <li><a href="about.html" onclick="toogleMenu();">About Me</a></li>
+        <li><a href="project.html" onclick="toogleMenu();">Project</a></li>
+
+    </ul>
+</div>
+<script>
+    function toogleMenu(){
+    const menuToggle =document.querySelector('.toggle');
+    const sidebar =document.querySelector('.sidebar');
+    menuToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');  
+}
+</script>
+</body>
+</html>

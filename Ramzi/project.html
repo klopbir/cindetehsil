@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Ahmadov | ADA Student</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="toggle" onclick="toogleMenu();"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="photo5278485081771587648.jpg" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">"Hour of Code" Project</h5>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae incidunt officiis nihil, asperiores iusto voluptatem. Tenetur quo suscipit distinctio dolore corrupti veritatis odio culpa similique perferendis repudiandae eaque, sapiente aliquid, perspiciatis ea natus nisi porro in minus? Facilis non nam soluta veniam, adipisci deserunt voluptas vel quod quia! Quis reiciendis ipsa labore recusandae laborum. Placeat vero voluptatum aut eum exercitationem consectetur quo consequuntur, quas laudantium magnam ex officiis voluptas dicta minima? Ratione atque facilis illum doloribus dolor eos? Aut, placeat commodi inventore deserunt esse dicta ex illum, officia laudantium atque minima quaerat eum natus soluta aliquam. Ipsam non assumenda inventore.</p>
+            
+        </div>
+       </div>
+    </section>
+<div class="sidebar">
+    <ul class="menu">
+        <li><a href="index.html" onclick="toogleMenu();">Home</a></li>
+        <li><a href="contact.html" onclick="toogleMenu();">Contact</a></li>
+        <li><a href="about.html" onclick="toogleMenu();">About Me</a></li>
+        <li><a href="project.html" onclick="toogleMenu();">Project</a></li>
+    </ul>
+</div>
+<script>
+    function toogleMenu(){
+    const menuToggle =document.querySelector('.toggle');
+    const sidebar =document.querySelector('.sidebar');
+    menuToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');  
+}
+</script>
+</body>
+</html>

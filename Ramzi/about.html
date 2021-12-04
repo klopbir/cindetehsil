@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Ahmadov | About</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="toggle" onclick="toogleMenu();"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="photo5278485081771587648.jpg" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">About Me</h5>
+        <div>
+            <h4><span>My, </span>hobbies: </h4>
+
+                <a href="#" class="btn">1. Playing Football</a><br><br><h6 style="background-color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;">Playing football is one of the activities that I like most. I play football since I am 6. However, I don't play professionally.</h6><br>
+                <a href="#" class="btn">2. Drawing</a><br><br><h6 style="background-color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;"> In my opinion, drawing, the art or technique of producing images on a surface, usually paper, by means of marks, usually of ink, graphite, chalk, charcoal, or crayon.</h6><br>
+                <a href="#" class="btn">3. Reading Book</a><br><br><h6 style="background-color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;">I enjoy to read book. I prefer to read drammatic and funny books. I think reading book is best therapy for me.</h6>
+        </div>
+       </div>
+    </section>
+<div class="sidebar">
+    <ul class="menu">
+        <li><a href="index.html" onclick="toogleMenu();">Home</a></li>
+        <li><a href="contact.html" onclick="toogleMenu();">Contact</a></li>
+        <li><a href="about.html" onclick="toogleMenu();">About Me</a></li>
+        <li><a href="project.html" onclick="toogleMenu();">Project</a></li>
+
+    </ul>
+</div>
+<script>
+    function toogleMenu(){
+    const menuToggle =document.querySelector('.toggle');
+    const sidebar =document.querySelector('.sidebar');
+    menuToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');  
+}
+</script>
+</body>
+</html>

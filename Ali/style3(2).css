@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  height: 500px;
+  overflow: scroll;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+h2{
+  background-color: #ff6f61;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  color: #C4BFBE;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 2px 2px black;
+  }
+
+.ada{
+  text-decoration: none;
+  color: #9A99BA;
+}
+
+p{
+ text-align: left;
+ /* color: #0B0781; */
+ color: 809fff;
+ font-weight: bold;
+ /* border-style: groove; */
+ /* border-radius: 3px; */
+ margin-left: 5px;
+ margin-right: 5px;
+ padding: 0;
+ font-size: 1.3em;
+ /* border-color: #7370CA; */
+ /* background-color: #ffe8e6; */
+ line-height: 1.3em;
+
+}
+
+h3{
+  background-color: #3D567A;
+  margin-top: 0;
+  font-size: 1.8em;
+  font-family: Helvetica;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px #84a6d8;
+}
+
+
+
+.reason{
+  /* background-color: #84A6D8; */
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0;
+  font-weight: bold;
+}
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.schoolname{
+  color: #9A99BA;
+   text-decoration: none;
+}

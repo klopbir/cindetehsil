@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <style>
+        .main{
+            background: center / 100% auto no-repeat url("../images/bigstock-166565033.jpg")
+
+        }
+        .name{
+            text-shadow: 0 0 10px gold;
+        }
+        .container-sm{
+            border:none;
+        }
+        .accr{
+            background: center / 100% auto no-repeat url("../images/bg.png");
+            height:70vh;
+        }        
+        .accordion,.accordion-header,.accordion-body{
+            background-color: transparent;
+        }
+        </style>
+</head>
+<body>
+    <div class="main" >
+        <div class="container d-flex justify-content-center">
+            <img class="my-5 mb-2 border rounded" src="../images/IMG_5730.JPG" alt="" style="width: 500px;height: auto;box-shadow: 0 0 90px black;box-shadow: 2px 3px 100px yellowgreen;">
+        </div>
+        <div class="name">
+            <h1 class="text-center display-2 my-2 fw-bold pb-5" style="letter-spacing: 4px;color:gold">Rahimli <br> <span class="display-3" style="font-weight: 500;">Toghrul</span></h1>
+        </div>
+    </div>
+
+    <div class="container-fluid accr align-items-center d-flex" style="margin-top: 300px;">
+        <div class="row align-items-center justify-content-around g-5">
+            <div class="col-5">
+                <p class="text-center display-1 fw-bold text-danger my-5" style="width: 100%;">My Interests</p>
+
+            </div>
+            <div class="col-7" style="padding: 70px 100px;"  >
+                <div class="amain container-fluid d-flex align-items-around" style="flex-wrap: wrap">
+                    <div class="accordion accordion-flush border border-3 border-warning rounded" style="box-shadow: inset 0px 0px 20px gold;" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header " id="headingOne">
+                            <button class="text-start fs-4 text-danger border border-0 ps-3 py-3 fw-bold" style="width: 100%;background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Technologies
+                            </button>
+                          </h2>
+                          <div id="" class="accordion-collapse collapse show" aria-labelledby="headingOne" >
+                            <div class="accordion-body">
+                                Since my childhood I was interested in Technology. My parents told me that there were no left toys, I unscrambled them, tried to understand why car goes forward, when I press button, or even if something got broken I always tried to fiz it, of course I always failed :-).
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                              Exact Sciences
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" >
+                            <div class="accordion-body">
+                                Although major part of students consider Subjects like Math, Physics and Chemistry dull or even hate them, I found/find them attractive and breathtaking. For me there is no better knowledge than the one that clarifies almost all the processes in the world
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                              Design and Art
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" >
+                            <div class="accordion-body">
+                                Despite the fact that I don't have designing skills at all, if compared to those creators on youtube, any youtube video regardless of what kind of art is it attracts/inpires me, and the will to implement it myself outbreaks, although I don't do it 
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <p class="text-center display-1 my-5 p-3 text-info" style="font-weight: 500;">Contact information</p>
+        <div class="icons text-center" style="margin-top: 70px;">
+            <a target="_blank" href="https://web.whatsapp.com/"><i class="bi bi-whatsapp shadow bg-body rounded display-1 link-success p-5 mx-4"></i></a>
+            <a target="_blank" href="https://t.me/+8utzSLpikeMxNzMy"><i class="shadow bg-body bi bi-telegram display-1 link-primary p-5 mx-4"></i></a>
+            <a target="_blank" href="https://instagram.com/toghrul_rahimli?utm_medium=copy_link"><i class="shadow bg-body bi bi-instagram display-1 link-danger p-5 mx-4"></i></a>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

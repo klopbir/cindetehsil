@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Ahmadov | ADA Student</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="toggle" onclick="toogleMenu();"></div>
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="photo5278485081771587648.jpg" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">My Personal Website</h5>
+        <div>
+            <h4><span>Hello, </span>I am</h4>
+            <h4>Ramzi Ahmadov</h4>
+            <p>My name is Ramzi Ahmadov. I am 19 years old Azerbaijani teenager. I was born in
+                Baku; however, I am from Nakhchivan district. I have grown up in Baku, and currently, I live in Baku,
+                Ahmadli. If you are interested in a city that I live,
+              you can get information by clicking <a href="https://www.e-gov.az/az/content/read/23" class='here'><em>here</em></a></p>
+                <a href="about.html" class="btn">About Me</a>
+                <a href="project.html" class="btn">Our Project</a>
+        </div>
+       </div>
+    </section>
+<div class="sidebar">
+    <ul class="menu">
+        <li><a href="index.html" onclick="toogleMenu();">Home</a></li>
+        <li><a href="contact.html" onclick="toogleMenu();">Contact</a></li>
+        <li><a href="about.html" onclick="toogleMenu();">About Me</a></li>
+        <li><a href="project.html" onclick="toogleMenu();">Project</a></li>
+
+    </ul>
+</div>
+<script>
+    function toogleMenu(){
+    const menuToggle =document.querySelector('.toggle');
+    const sidebar =document.querySelector('.sidebar');
+    menuToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');  
+}
+</script>
+</body>
+</html>
